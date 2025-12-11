@@ -1,0 +1,92 @@
+.header {
+  width: 100%;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header-cnt{
+    width: 100%;
+    overflow: hidden;
+
+}
+.left,
+.right{
+    width: 50%;
+    height: 300px;
+    margin: 16px;
+    position: relative;
+    float: left;
+}
+
+.left{
+    background-image: url("./images/diagonal_smile.png");
+}
+
+.right{
+    background-image: url("./images/diagonal_smile.png.png");
+}
+
+.title-cnt{
+    position: absolute;
+    bottom: 5%;
+    left: 5%
+}
+.title-cnt>p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+.parents{
+  width: 100%;
+
+  overflow: hidden;
+}
+
+.children{
+  float: left;
+   width: 32%;
+
+}
+
+.children>img{
+    display: block;
+    margin: 0 auto;
+    width: 400px;;
+}
+
+.title>span:first-of-type{
+    background-color:darkcyan;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.jquery{
+    background-color: orange !important;
+}
+
+.date{
+    background-color: cyan;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.jquery
+.children>p{
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    width: 90%;
+}
+
+
+.parent>.children>span:last-of-type{
+    color:aqua;
+}
