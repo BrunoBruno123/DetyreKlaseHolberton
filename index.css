@@ -5,7 +5,33 @@
 .container {
     width: 70%;
     margin: 0 auto;
+    
 }
+.nav {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.menu li {
+  font-size: 14px;
+  cursor: pointer;
+}
+
 
 .header-cnt{
     width: 100%;
@@ -16,17 +42,20 @@
 .right{
     width: 50%;
     height: 300px;
-    margin: 16px;
+    margin: 0;
     position: relative;
     float: left;
+    background-repeat: no-repeat;      
+    background-size: cover;            
+    background-position: center;       
 }
 
 .left{
-    background-image: url("./images/diagonal_smile.png");
+    background-image: url("./images2/car2.png");
 }
 
 .right{
-    background-image: url("./images/diagonal_smile.png.png");
+    background-image: url("./images2/car3.png");
 }
 
 .title-cnt{
@@ -90,3 +119,4 @@
 .parent>.children>span:last-of-type{
     color:aqua;
 }
+
