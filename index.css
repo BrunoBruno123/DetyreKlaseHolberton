@@ -15,7 +15,14 @@
   justify-content: space-between;
   align-items: center;
 }
-
+.nav input[type=text]{
+  float: right;
+  padding: 6px; 
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
 .logo {
   font-size: 22px;
   font-weight: bold;
